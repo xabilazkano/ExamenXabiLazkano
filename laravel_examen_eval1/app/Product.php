@@ -10,6 +10,6 @@ class Product extends Model
 
     public function shop()
     {
-    	return $this->hasMany('App\Product')
+    	return $this->belongsTo('App\Shop');
     }
 }

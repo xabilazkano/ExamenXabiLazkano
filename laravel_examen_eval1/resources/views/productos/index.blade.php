@@ -22,7 +22,7 @@
       <td>{{$producto->description}}</td>
       <td>{{$producto->price}}</td>
       <td>{{$producto->stock}}</td>
-      <td></td>
+      <td>{{$producto->shop->name}}</td>
     </tr>
     @endforeach
   </table>

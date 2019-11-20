@@ -20,7 +20,7 @@
     @endif
     <br><br>
      Password:<br>
-    <input type="text" name="password">
+    <input type="password" name="password">
     @if ($errors->has('password'))
     	<b>{{$errors->first('password')}}</b>
     @endif
@@ -32,7 +32,7 @@
     @endif
     <br><br>
      Likes:<br>
-    <input type="number" name="likes">
+    <input type="text" name="likes">
     @if ($errors->has('likes'))
     	<b>{{$errors->first('likes')}}</b>
     @endif

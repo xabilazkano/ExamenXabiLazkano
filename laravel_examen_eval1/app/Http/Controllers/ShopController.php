@@ -44,7 +44,8 @@ class ShopController extends Controller
 
         Shop::insert(['name' => $nombre, 'description' => $descripcion, 'password' => $password, 'email' => $email, 'likes' => $likes]);
 
-        return view('home');
+       $tiendas= Shop::all()->where('name',$nombre);
+       return view('tiendas.show',['tiendas'=>$tiendas]);
 
     }
 

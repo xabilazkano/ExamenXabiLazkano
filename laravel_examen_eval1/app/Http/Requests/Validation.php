@@ -27,8 +27,8 @@ class Validation extends FormRequest
             'nombre' => 'required|min:2|max:20',
             'descripcion' => 'required',
             'email' => 'required|email',
-            'password' => 'required|min:8|max:10',
-            'likes' => 'required'
+            'password' => 'required|min:8|max:10', //no he conseguido validar que tenga un numero
+            'likes' => 'required|integer|gt:0'
         ];
     }
 }
