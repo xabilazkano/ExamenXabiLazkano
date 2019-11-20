@@ -4,7 +4,13 @@
 
 @section('content')
 
-  Completa el ejercicio 1 y nombra AQUI al menos dos ventajas y dos desventajas que tenga el uso de un framework en el desarrollo de aplicaciones web.
+  Ventajas: <br>
+  -Código organizado desde el principio<br>
+  -Facilidades para el control de formularios y datos<br><br>
+  Desventajas: <br>
+  -Curva de aprendizaje: un framework facilita mucho el trabajo una vez que el programador se haya familiarizado con el, pero puede tardar mucho en llegar a este punto<br>
+  -Bajo rendimiento, mucho código sin utilizar
+
 
 
 @endsection
